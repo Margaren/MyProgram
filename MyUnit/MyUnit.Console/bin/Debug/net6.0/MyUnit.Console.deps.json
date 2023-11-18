@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MyUnit.Console/1.0.0": {
+        "dependencies": {
+          "MyUnit": "1.0.0",
+          "SystemArithmetic.Tests": "1.0.0"
+        },
+        "runtime": {
+          "MyUnit.Console.dll": {}
+        }
+      },
+      "MyUnit/1.0.0": {
+        "runtime": {
+          "MyUnit.dll": {}
+        }
+      },
+      "SystemArithmetic.Tests/1.0.0": {
+        "dependencies": {
+          "MyUnit": "1.0.0"
+        },
+        "runtime": {
+          "SystemArithmetic.Tests.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyUnit.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyUnit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SystemArithmetic.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MyLinq.Tests\\MyLinq.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MuLinq\\MuLinq.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MuLinq\\MuLinq.csproj",
+        "projectName": "MuLinq",
+        "projectPath": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MuLinq\\MuLinq.csproj",
+        "packagesPath": "C:\\Users\\study\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MuLinq\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\study\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MyLinq.Tests\\MyLinq.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MyLinq.Tests\\MyLinq.Tests.csproj",
+        "projectName": "MyLinq.Tests",
+        "projectPath": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MyLinq.Tests\\MyLinq.Tests.csproj",
+        "packagesPath": "C:\\Users\\study\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MyLinq.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\study\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {
+              "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MuLinq\\MuLinq.csproj": {
+                "projectPath": "C:\\Users\\study\\Desktop\\praktika\\MyLinq\\MuLinq\\MuLinq.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

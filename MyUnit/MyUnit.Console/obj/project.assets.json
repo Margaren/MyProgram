@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MyUnit/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyUnit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyUnit.dll": {}
+        }
+      },
+      "SystemArithmetic.Tests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MyUnit": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SystemArithmetic.Tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SystemArithmetic.Tests.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyUnit/1.0.0": {
+      "type": "project",
+      "path": "../MyUnit/MyUnit.csproj",
+      "msbuildProject": "../MyUnit/MyUnit.csproj"
+    },
+    "SystemArithmetic.Tests/1.0.0": {
+      "type": "project",
+      "path": "../SystemArithmetic.Tests/SystemArithmetic.Tests.csproj",
+      "msbuildProject": "../SystemArithmetic.Tests/SystemArithmetic.Tests.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MyUnit >= 1.0.0",
+      "SystemArithmetic.Tests >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PolinaD\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\MyUnit.Console\\MyUnit.Console.csproj",
+      "projectName": "MyUnit.Console",
+      "projectPath": "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\MyUnit.Console\\MyUnit.Console.csproj",
+      "packagesPath": "C:\\Users\\PolinaD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\MyUnit.Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PolinaD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\MyUnit\\MyUnit.csproj": {
+              "projectPath": "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\MyUnit\\MyUnit.csproj"
+            },
+            "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\SystemArithmetic.Tests\\SystemArithmetic.Tests.csproj": {
+              "projectPath": "C:\\Users\\PolinaD\\Desktop\\учеба\\1. Программирование\\MyUnit\\SystemArithmetic.Tests\\SystemArithmetic.Tests.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

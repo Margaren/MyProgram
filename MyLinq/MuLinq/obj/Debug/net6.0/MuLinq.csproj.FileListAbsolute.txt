@@ -1,0 +1,12 @@
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\bin\Debug\net6.0\MuLinq.deps.json
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\bin\Debug\net6.0\MuLinq.dll
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\bin\Debug\net6.0\MuLinq.pdb
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.csproj.AssemblyReference.cache
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.AssemblyInfoInputs.cache
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.AssemblyInfo.cs
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.csproj.CoreCompileInputs.cache
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.dll
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\refint\MuLinq.dll
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\MuLinq.pdb
+C:\Users\PolinaD\source\repos\MyLinq\MuLinq\obj\Debug\net6.0\ref\MuLinq.dll
