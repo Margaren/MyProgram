@@ -8,7 +8,7 @@ namespace MyUnit
         {
             if (!expected.Equals(acual))
             {
-                throw new TestFailureException($"Ожидалось значение {expected}, но получено {acual}");
+                throw new TestFailureException($"Ожидалось значение {expected}, но получили хуй{acual}");
             }
         }
 
@@ -17,7 +17,7 @@ namespace MyUnit
             try
             {
                 action?.Invoke();
-                throw new TestFailureException($"Ожидалось исключение {typeof(TException)}, но не было запущено");
+                throw new TestFailureException($"Ожидалось исключение {typeof(TException)}, но не было запущено ровным счётом НИ-ХУ-Я!");
             }
 
             catch (TException)
@@ -25,7 +25,7 @@ namespace MyUnit
             }
             catch (Exception ex)
             {
-                throw new TestFailureException($"Ожидалось исключение {typeof(TException)}, но запустилось {ex.GetType().Name}");
+                throw new TestFailureException($"Ожидалось исключение {typeof(TException)}, но запустилось какое-то уёбище по имени {ex.GetType().Name}");
             }
         }
 
@@ -33,7 +33,7 @@ namespace MyUnit
         {
             if (!actual)
             {
-                throw new TestFailureException($"Ожидалось {true}, но ");
+                throw new TestFailureException($"Ожидалось {true}, но КОНЬ В ПАЛЬТО!");
             }
         }
 
@@ -41,7 +41,7 @@ namespace MyUnit
         {
             if (actual)
             {
-                throw new TestFailureException($"Ожидалось {false}, но ");
+                throw new TestFailureException($"Ожидалось {false}, но... не нокай! Ты не конь!");
             }
         }
     }
